@@ -1,0 +1,14 @@
+# Handle line endings
+* text=auto
+
+# Treat JSON files as text
+*.json text
+*.html text
+*.css text
+*.js text
+
+# Ensure images are treated as binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>Browser Tab Hibernator</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <h1>Browser Tab Hibernator</h1>
+  <label>
+    <input type="checkbox" id="toggleEnabled" />
+    Enable Browser Tab Hibernator
+  </label>
+
+  <h2>Whitelist Domains</h2>
+  <input type="text" id="domainInput" placeholder="e.g. chat.openai.com" />
+  <button id="addDomain">Add</button>
+  <ul id="whitelist"></ul>
+
+  <h2>Settings</h2>
+  <button id="exportSettings">Export</button>
+  <input type="file" id="importFile" accept=".json" />
+  <button id="importSettings">Import</button>
+
+  <script src="popup.js"></script>
+</body>
+</html>
