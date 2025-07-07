@@ -1,5 +1,9 @@
 # Browser Tab Hibernator Extension(With UI for whitelisting tabs)
 
+![BrowserTabHibernator](icons/BrowserTabHibernator.png)
+
+![Sleep Tabs](icons/SleepTabs.png)
+
 A lightweight Chrome/Brave/Edge extension that automatically discards inactive tabs to save memory — **with customisation to exclude specific tabs like Chatgpt/Gmail**.
 
 ## Features

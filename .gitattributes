@@ -12,3 +12,12 @@
 *.jpg binary
 *.jpeg binary
 *.gif binary
+
+
+# Ensure that all text files use LF line endings
+# This is important for cross-platform compatibility
+*.js     text eol=lf
+*.css    text eol=lf
+*.html   text eol=lf
+*.json   text eol=lf
+*.md     text eol=lf
